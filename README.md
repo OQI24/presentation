@@ -1,7 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Небольшой проект презентация.
+Реализован на базе [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Для запуска
 
-In the project directory, you can run:
-
+### `git clone`
+### `cd project`
 ### `yarn start`
