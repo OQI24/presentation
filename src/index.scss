@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+.root {
+
+  .wrapper{
+    height: 100%;
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 990px) {
+  .root {
+
+    .wrapper{
+      height: 100%;
+      //padding-top: 140px;
+    }
+  }
+}
