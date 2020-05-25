@@ -5,7 +5,7 @@
 
 ### `git clone`
 ### `cd project`
-### `yarn start
+### `yarn start`
 or
 ### `npm start`
 
