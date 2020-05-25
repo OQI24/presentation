@@ -1,4 +1,4 @@
-Небольшой проект презентация.
+Небольшой проект-презентация.
 Реализован на базе [Create React App](https://github.com/facebook/create-react-app).
 
 ## Для запуска
