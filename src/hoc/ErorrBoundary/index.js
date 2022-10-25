@@ -19,7 +19,7 @@ class ErrorBoundary extends React.Component {
 
     render() {
         if (this.state.hasError) {
-            // Можно отрендерить запасной UI произвольного вида
+            // Можно отрисовать запасной UI произвольного вида
             return <h3>Что-то пошло не так.</h3>;
         }
 

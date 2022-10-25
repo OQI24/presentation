@@ -50,10 +50,10 @@ function deleteNote(id) {
 function fetchNotes() {
     return async dispatch => {
         dispatch(setLoading(true));
-        await setTimeout(async ()=> {
+        setTimeout(async () => {
             await axios.get(`${url}/notes.json`)
                 .then((res) => {
-                    const payload = res.data && Object.keys(res.data).map((key) => ({...res.data[key], id: key})) || [];
+                    const payload = res.data ? Object.keys(res.data).map((key) => ({...res.data[key], id: key})) : [];
                     dispatch({
                         type: NOTES.FETCH_NOTES,
                         payload

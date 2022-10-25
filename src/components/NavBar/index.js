@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
 import './style.scss'
 
@@ -7,7 +7,7 @@ export const NavBar = ({header = null}) => {
 
     const width = window.innerWidth;
 
-    if (header){
+    if (header) {
         return (
 
             <nav className="navbar navbar-expand-lg navbar-light bg-light h-1 header">
@@ -41,7 +41,9 @@ export const NavBar = ({header = null}) => {
     } else {
         return (
             <div className="bg-light fixed-bottom footer">
-                <p className="linkIn" onClick={() => window.open('https://www.linkedin.com/in/ivan-sukhachev/')}> &copy; 2020 bySukhachev</p>
+                <p className="linkIn"
+                   onClick={() => window.open('https://www.linkedin.com/in/ivan-sukhachev/')}> &copy; 2020
+                    bySukhachev</p>
             </div>
         );
     }
